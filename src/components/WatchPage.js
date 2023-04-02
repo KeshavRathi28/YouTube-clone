@@ -15,7 +15,7 @@ const WatchPage = () => {
         }
     }, [dispatch]);
     return (
-        <div>
+        <div className="px-5">
             <iframe width="1008" height="567" src={`https://www.youtube.com/embed/${videoId}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
         </div>
     )

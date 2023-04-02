@@ -10,7 +10,6 @@ const Videos = () => {
         const data = await fetch(YOUTUBE_VIDEOS_API);
         const json = await data?.json();
         setVideos(json?.items);
-        console.log('API Called');
     };
     useEffect(() => {
         getVideos();
