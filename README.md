@@ -7,7 +7,7 @@ A clone of the YouTube web app made using React.
 - **YouTube Home**: Fetched data from YouTube's official [Data API](https://developers.google.com/youtube/v3/docs)
 - **Watch Page**: Dynamically loads the video based on the selection made on homepage
 - **Sidebar**: A collapsible sidebar that can be toggled using the hamburger icon and automatically collapses on the watch page
-- **Search Bar**: 
+- **Search Bar**: Implemented *debouncing* to minimise the number of API calls made over the network
 - **Nested Comments**
 - **Live Chat**
 
