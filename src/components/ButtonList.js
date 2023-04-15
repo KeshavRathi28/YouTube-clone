@@ -9,7 +9,7 @@ const ButtonList = () => {
                 buttons.map((button, index) => <Button name={button} key={index} />)
             }
         </div>
-    )
+    );
 };
 
 export default ButtonList;

@@ -13,7 +13,7 @@ const SidebarTile = ({ info }) => {
                 </svg>
                 <p className="pl-2 self-center">{info.name}</p>
             </div>
-        )
+        );
     }
     return (
         <div className="flex flex-col m-2 p-2 hover:border hover:border-gray-100 hover:bg-gray-100 hover:rounded-lg" >

@@ -14,7 +14,7 @@ const MainContainer = () => {
             <ButtonList />
             <Videos />
         </div>
-    )
+    );
 };
 
 export default MainContainer;

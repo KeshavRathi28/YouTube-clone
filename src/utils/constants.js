@@ -95,3 +95,5 @@ export const getViewsString = count => {
         return `${(count / 10000000).toFixed(0)} crore views`;
     }
 };
+
+export const YOUTUBE_SEARCH_API = searchQuery => `http://suggestqueries.google.com/complete/search?client=firefox&ds=yt&q=${searchQuery}`;

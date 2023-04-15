@@ -30,7 +30,7 @@ const Videos = () => {
                 videos.map(video => <Link to={`/watch?v=${video?.id}`} key={video?.id}><VideoCard video={video} /></Link>)
             }
         </div>
-    )
+    );
 };
 
 export default Videos;
